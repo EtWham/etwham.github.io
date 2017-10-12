@@ -1,5 +1,5 @@
 {
-  "name": "port2",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,5 +11,14 @@
   "dependencies": {
     "animate.css": "^3.5.2",
     "typed.js": "^2.0.6"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EtWham/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EtWham/portfolio/issues"
+  },
+  "homepage": "https://github.com/EtWham/portfolio#readme"
 }
