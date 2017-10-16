@@ -159,7 +159,8 @@
 }
 /*choose a new background for projectSec*/
 #projectSec {
-  background-image: url(../images/projectBackground3.png);
+  background-image: url(../images/woodBackground.jpg);
+/*  background-color: darkgrey;*/
   margin-left: 150px;
 }
 

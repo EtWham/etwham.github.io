@@ -13,6 +13,8 @@ $( document ).ready(function() {
         scaleBannerVideoSize('.video-container video');
     });
 
+    $(".navLinks").localScroll();    
+
 });
 
 function scaleVideoContainer() {
@@ -40,8 +42,6 @@ function scaleBannerVideoSize(element){
     windowHeight = $(window).height() + 5,
     videoWidth,
     videoHeight;
-
-    console.log(windowHeight);
 
     $(element).each(function(){
         var videoAspectRatio = $(this).data('height')/$(this).data('width');

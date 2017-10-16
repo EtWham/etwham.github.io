@@ -10,6 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "animate.css": "^3.5.2",
+    "jquery.localscroll": "^2.0.0",
+    "jquery.scrollto": "^2.1.2",
+    "smooth-scroll": "^12.1.5",
     "typed.js": "^2.0.6"
   },
   "devDependencies": {},
