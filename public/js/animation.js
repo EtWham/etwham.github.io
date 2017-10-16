@@ -13,7 +13,7 @@ $( document ).ready(function() {
         scaleBannerVideoSize('.video-container video');
     });
 
-    $(".navLinks").localScroll();    
+    // $(".navLinks").localScroll();    
 
 });
 
