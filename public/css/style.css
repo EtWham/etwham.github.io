@@ -53,16 +53,20 @@
   color: white;
 }
 
-.emailHeader {
+.emailFull, .resumeLink {
   font-size: 22px;
   margin-left: 30px;
   color: #bf9a81;
 }
 
-.emailFull {
+/*.emailFull, .resumeLink {
   font-size: 20px;
   margin-left: 30px;
   color: white;
+}*/
+
+.resume {
+  margin-bottom: 10px;
 }
 
 #socialLogos {
