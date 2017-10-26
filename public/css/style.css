@@ -53,17 +53,18 @@
   color: white;
 }
 
-.emailFull, .resumeLink {
+.resumeLink {
   font-size: 22px;
   margin-left: 30px;
   color: #bf9a81;
 }
 
-/*.emailFull, .resumeLink {
-  font-size: 20px;
+
+.emailFull {
+  font-size: 22px;
   margin-left: 30px;
   color: white;
-}*/
+}
 
 .resume {
   margin-bottom: 10px;
