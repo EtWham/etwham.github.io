@@ -1,29 +1,20 @@
-/*
- * sideNav
- */
 .sideNav {
   position: fixed;
   top: 0px;
+  padding-left: 0;
+  padding-right: 0;
   bottom: 1000px;
   height: 100%;
-  z-index: 1000;
+  z-index: 1;
   width: 250px; 
   overflow-x: hidden;
-  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  overflow-y: auto;
 }
-
 
 #eWLogo {
   height: 200px;
   width: 250px;
   padding: 15px;
-}
-
-/* sideNav navigation */
-.sideNav {
-  padding-left: 0;
-  padding-right: 0;
-/*  z-index: 1;*/
 }
 
 .sideNav .nav {
@@ -58,7 +49,6 @@
   margin-left: 30px;
   color: #bf9a81;
 }
-
 
 .emailFull {
   font-size: 22px;
@@ -131,16 +121,6 @@
     width: 100%;
 }
 
- /* Placeholders */
-.placeholders {
-  padding-bottom: 3rem;
-}
-
-.placeholder img {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 #typedName {
   z-index: 1;
   font-size: 22px;
@@ -162,7 +142,7 @@
 #aboutSec {
   background-image: url(../images/aboutBackground.png);
 }
-/*choose a new background for projectSec*/
+/*consider a new background for projectSec*/
 #projectSec {
 /*  background-image: url(../images/codingBackground.png);*/
   background-color: #364b71;
