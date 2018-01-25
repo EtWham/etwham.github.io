@@ -15,6 +15,34 @@ $( document ).ready(function() {
 
     // $(".navLinks").localScroll();    
 
+    // $("active").hover(function() {
+    //     <p>This is where an app summary will go</p>
+    // });
+
+    function emptySummary() {
+        $(projectOutline).empty();
+    }
+
+    function maritantSummary() {
+        $(projectOutline).html("A React web app utilizing Node, express, MongoDB, and Bootstrap to build a B2B ecommerce-marketplace that allows professionals to locate industrial equipment data. Users – from individuals to large companies – can search for products to purchase or offer products of their own.");
+    }
+
+    function recipeSummary() {
+        $(projectOutline).html("A recipe app built using an API and mySQL to take specific input from users then provide recipes filling the criteria the user specifies. Users input specific ingredients and criteria based on what type of food they want, how many calories, allergies, etc… and the API searches for recipes fitting the request then records them in MySQL.");
+    }
+
+    function schedulerSummary() {
+        $(projectOutline).html("A train schedule tracker built using HTML, CSS, and Bootstrap for the front end, firebase as the database, and JQuery to complete the actions of entering a new train and displaying trains stored on firebase on the train switchboard.");
+    }
+
+    function collectorSummary() {
+        $(projectInfo).html("An HTML and JQuery game where the user is presented with a random number and 4 crystals with unknown values. The object is to click on the crystals and match the random number; a quick, fun game.");
+    }
+
+    function reactPortfolioSummary() {
+     $(projectOutline).html("A secondary portfolio website - not meant to be my main personal site - built in react.");
+    }
+
 });
 
 function scaleVideoContainer() {

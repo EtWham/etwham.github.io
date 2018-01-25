@@ -45,7 +45,7 @@
           		<br/>
               <!-- consider formatting this differently, using an icon or something -->
               <div class="resume">
-                <!-- <p class="resumeHeader">Resume:</p> --><a class="resumeLink" href="public/docs/developerResume.pdf" target="_blank">Resume</a>
+                <!-- <p class="resumeHeader">Resume:</p> --><a class="resumeLink" href="public/docs/eWhamDeveloperResume.pdf" target="_blank">Resume</a>
               </div>
           		<div class="email">
           			<!-- <p class="emailHeader">Email:</p> --><p class="emailFull">etwham@gmail.com</p>
@@ -66,24 +66,27 @@
         	<!-- coverr section -->
         	<div class="container-fluid" id="coverSec">
         		<div class="homepage-hero-module">
-              		<div class="video-container">
-              			<div class="filter"></div>
-                		<video autoPlay loop class="fillWidth">
-                  		<source src="public/mp4/For_Wes.mp4" type="video/mp4" />
-                  		<source src="/public/webm/For_Wes.webm" type="video/webm" />
-                		</video>
-                		<div hidden class="posterHidden">
-                  			<img src="public/images/For_Wes.jpg" alt=""/>
-                		</div>
-                		<div class="animatedType">
-							        <div id="typedName">
-								        <p>Ethan Wham</p>
-							        </div>
-                			<span id="typed" class="animatedName"></span>
-                      <!-- add an "I am" typed section that has a list of typed.js options that it runs through. ex. full stack web developer, runner, reader, videogame player, binge-watcher, soccer mom...jk, etc... -->
-                		</div>
-              		</div>
-            	</div>
+              	<div class="video-container">
+              		<div class="filter"></div>
+                	<video autoPlay loop class="fillWidth">
+                  	<source src="public/mp4/For_Wes.mp4" type="video/mp4" />
+                  	<source src="/public/webm/For_Wes.webm" type="video/webm" />
+                	</video>
+                	<div hidden class="posterHidden">
+                  		<img src="public/images/For_Wes.jpg" alt=""/>
+                	</div>
+                	<div class="animatedType">
+							      <div id="typedName">
+								      <p>Ethan Wham</p>
+							      </div>
+                    <div id="typedIAm"> 
+                      <!-- <p> I am...  -->
+                    </div>
+                    <!-- add an "I am" typed section that has a list of typed.js options that it runs through. ex. full stack web developer, runner, reader, videogame player, binge-watcher, soccer mom...jk, etc... -->
+                  </div>
+                </div>
+              </div>
+            </div>
         	</div>
         </div>
     </div>
@@ -113,10 +116,10 @@
 				<div class="col-md-3"></div>
 				<div class="col-md-7">
           <!-- fill in about statement -->
-					<p class="aboutStatement">I am a junior web developer with full stack development expertise. I currently like to spend more time on the front-end in languages such as JavaScript, HTML, CSS, and jQuery and I'm most interested in UX/UI design. Lately, I have been working with React and as a programmer, I enjoy creating applications with the MERN stack. While I do enjoy developing on the front-end, I also have a strong understanding of the back-end having worked with Node, Express, MongoDB, MySQL, and Webpack.
+					<p class="aboutStatement">I am a junior web developer with full stack development expertise. I currently like to spend more time on the front-end in languages such as JavaScript, HTML, CSS, and jQuery and I'm most interested in UX/UI design. Lately, I have been working with React and as a programmer, I enjoy creating applications with the MERN stack. While I do enjoy developing on the front-end, I also have a strong understanding of the back-end having worked with technologies such as Node, Express, MongoDB, MySQL, and Webpack. Next, I want to tackle Java and Angular.
 					<br/>
 					<br/>
-					When I'm not building software, I love to read, connect with my friends, go outside for a bike ride, or just relax by playing some videogames.</p>
+					When I'm not building software, I love to read, connect with my friends, go outside for a hike or bike ride, or just relax by playing some videogames.</p>
 					<br>
 					</br>
 				</div>
@@ -148,35 +151,35 @@
   					<div class="carousel-inner">
     					<div class="carousel-item active">
     						<!-- find out why this keeps expanding height, put in a clearer pic -->
-      						<img class="d-block w-100" src="public/images/maritant.png" alt="maritantSlide" onclick="maritantSummary()"/>
+      						<img class="d-block w-100" src="public/images/maritant.jpg" alt="maritantSlide" onmouseover="maritantSummary()" onmouseout="emptySummary()"/>
       						 <div class="carousel-caption d-none d-md-block projectSummary">
     							<a class="project-title" href="https://maritant.herokuapp.com/#/" target="_blank" style="color:black;font-size: 24px;">Maritant</a>
     							<!-- <p style="color:black;">A B2B ecommerce website that allows professionals to locate and purchase specific industrial equipment.</p> -->
   							</div>
     					</div>
    					 	<div class="carousel-item">
-      						<img class="d-block w-100" src="public/images/recipe.jpg" alt="recipeSlide" onclick="recipeSummary()"/>
+      						<img class="d-block w-100" src="public/images/recipe.jpg" alt="recipeSlide" onmouseover="recipeSummary()" onmouseout="emptySummary()"/>
       						<div class="carousel-caption d-none d-md-block projectSummary">
     							<a class="project-title" href="https://crisayala16.github.io/Recipe-App/" target="_blank" style="color:black;font-size: 24px;">Recipe Recorder</a>
     							<!-- <p style="color:black;">A recipe app that takes input from users then searchs an API to provide recipes fitting that input.</p> -->
   							</div>
     					</div>
-            	<div class="carousel-item">
-                <img class="d-block w-100" src="public/images/collector.jpg" alt="collectorSlide" onclick="portfolioSummary()"/>
-                	<div class="carousel-caption d-none d-md-block projectSummary">
-    							<a class="project-title" href="http://ethanwham.com/week-4-game/index.html" target="_blank" style="color:black;font-size: 24px;">Crystal Collector</a>
-    							<!-- <p style="color:white;">A crystals game where you click on crystals assigned a random value and try to match that with the goal value. Built using simple Javascript, JQuery, and custom CSS.</p> -->
-  							</div>
-            	</div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="public/images/scheduler.jpg" alt="schedulerSlide" onclick="portfolioSummary()"/>
+                <img class="d-block w-100" src="public/images/scheduler.jpg" alt="schedulerSlide" onmouseover="schedulerSummary()" onmouseout="emptySummary()"/>
                   <div class="carousel-caption d-none d-md-block projectSummary">
                   <a class="project-title" href="http://ethanwham.com/trainScheduler/index.html" target="_blank" style="color:black;font-size: 24px;">Train Scheduler</a>
-                  <!-- <p style="color:white;">A simple train schedule tracker built using firebase as the database.</p> -->
+                  <!-- <p style="color:white;">A train schedule tracker built using firebase as the database.</p> -->
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="public/images/For_Wes.jpg" alt="portfolioSlide" onclick="portfolioSummary()"/>
+                <img class="d-block w-100" src="public/images/collector.jpg" alt="collectorSlide" onmouseover="collectorSummary()" onmouseout="emptySummary()"/>
+                  <div class="carousel-caption d-none d-md-block projectSummary">
+                  <a class="project-title" href="http://ethanwham.com/week-4-game/index.html" target="_blank" style="color:black;font-size: 24px;">Crystal Collector</a>
+                  <!-- <p style="color:white;">A crystals game where you click on crystals assigned a random value and try to match that with the goal value. Built using simple Javascript, JQuery, and custom CSS.</p> -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="public/images/For_Wes.jpg" alt="portfolioSlide" onmouseover="reactPortfolioSummary()" onmouseout="emptySummary()"/>
                   <div class="carousel-caption d-none d-md-block projectSummary">
                   <a class="project-title" href="https://dry-chamber-33510.herokuapp.com/#/" target="_blank" style="color:white;font-size: 24px;">React Portfolio</a>
                   <!-- <p style="color:white;">A portfolio website built in react detailing my history and previous work.</p> -->
@@ -201,8 +204,9 @@
 		<div class="row">
 			<div class="col"></div>
 <!-- 			create div to be filled with a short project summary w/a link to that project when carousel moves through each project.  -->
-			<div class="col projectInfo">
-				<p hidden>Consider two possibilties for carousel. First, add hrefs and slide labels to each item in the carousel detailing the project name and a one sentence explanation and linking to the project. Second, When the carousel moves through each project, fill an open div with a corresponding short project summary and link to that project.</p>
+			<div class="col projectInfo" style="color:white;">
+        <p id=="projectOutline"></p>
+				<!-- <p hidden>When the carousel moves through each project, fill an open div with a corresponding short project summary and link to that project.</p> -->
 			</div>
 			<div class="col"></div>
 		</div>
